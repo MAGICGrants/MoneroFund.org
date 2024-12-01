@@ -1,0 +1,25 @@
+email: info@magicgrants.org
+name: MAGIC Monero Fund
+description: MAGIC Monero Fund
+keywords: "cryptocurrency, blockchain, charity, scholarship, privacy, crypto, research"
+baseurl: ""
+url: "https://monerofund.org"
+
+markdown: kramdown
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
+    input: GFM
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+paginate: 6
+paginate_path: "/updates/page:num/"
+
+collections_dir: posts
+
+include:
+  - _redirects
